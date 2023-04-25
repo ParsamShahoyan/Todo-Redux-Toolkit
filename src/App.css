@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App {
+    background-color: rgb(201, 201, 201);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+.App h1{
+    margin-bottom: 30px;
+}
+.App .todos{
+    max-width: 90%;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.App .todos form{
+
+    display: grid;
+    grid-template-columns: 8fr 1fr;
+}
+.App .todos form input {
+    border: 0;
+    line-height: 35px;
+    margin: 10px 0 10px 0;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    background-color: aliceblue;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+.App .todos form button {
+    border: 0;
+    line-height: 35px;
+    border-radius: 0 5px 5px 0;
+    padding: 0 5px;
+    background-color: rgb(8, 209, 8);
+    color: gray;
+    cursor: pointer;
+    max-height: 35px;
+    margin-top: 10px;
+}
+.App .todos .todo{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 10px 0 ;
+}
+.App .todos .todo hr{
+    margin-top: 5px;
+}
+.App .todos .todo label{
+    display: flex;
+}
+.App .todos .todo label input{
+    cursor: pointer;
+}
+.App .todos .todo label h3{
+    cursor: pointer;
+    margin-left: 10%;
+    display: block;
+    max-width: 200px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-weight: 100;
+}
+.App .todos .todo  button{
+    max-height: 25px;
+    border: 0;
+    background-color: rgb(179, 1, 1);
+    color: rgb(221, 221, 221);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.App .todos .footer{
+    margin: 20px auto;
+}
+.App .todos .footer span{
+    font-weight: 600;
+    font-style: italic;
+    margin-right: 10px;
+}
+.App .todos .footer button{
+    background-color: red;
+    border: 0;
+    padding: 6px 8px;
+    border-radius: 5px;
+    color: rgb(221, 221, 221);
+    cursor: pointer;
+}
